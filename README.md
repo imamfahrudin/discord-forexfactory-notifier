@@ -11,8 +11,6 @@
 
 A sophisticated, automated Discord bot that monitors Forex Factory's economic calendar and delivers real-time notifications about high-impact forex events directly to your Discord server. Stay ahead of market-moving news with customizable filters, timezone support, and beautiful embed formatting.
 
-![Discord Forex Factory Notifier Banner](https://via.placeholder.com/1200x400/FF4500/FFFFFF?text=Discord+Forex+Factory+Notifier)
-
 ## 📋 Table of Contents
 
 - [Features](#-features)
@@ -22,7 +20,6 @@ A sophisticated, automated Discord bot that monitors Forex Factory's economic ca
   - [Method 1: Docker (Recommended)](#method-1-docker-recommended)
   - [Method 2: Manual Setup](#method-2-manual-setup)
 - [Configuration](#-configuration)
-- [Usage](#-usage)
 - [Environment Variables](#-environment-variables)
 - [Filtering Options](#-filtering-options)
 - [Scheduling](#-scheduling)
@@ -261,7 +258,7 @@ MAX_EVENT_TITLE_LENGTH=30
 | `DISCORD_WEBHOOK_URL` | ✅ Yes | - | Your Discord webhook URL |
 | `MAX_UPCOMING` | ❌ No | `5` | Maximum upcoming events to display |
 | `MIN_IMPACT` | ❌ No | `all` | Filter by impact: `high`, `medium`, `low`, or `all` |
-| `CURRENCIES` | ❌ No | `` (all) | Comma-separated currency codes (e.g., `USD,EUR,GBP`) |
+| `CURRENCIES` | ❌ No | (all) | Comma-separated currency codes (e.g., `USD,EUR,GBP`) |
 | `TIMEZONE` | ❌ No | `Asia/Jakarta` | Timezone for event times (see [tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)) |
 | `WEBHOOK_USERNAME` | ❌ No | `Forex Notifier` | Bot display name in Discord |
 | `EMBED_TITLE` | ❌ No | `Forex Alerts` | Title of embed messages |
@@ -628,14 +625,6 @@ Planned features:
 If you find this project useful, please consider giving it a star! ⭐
 
 [![Star History Chart](https://api.star-history.com/svg?repos=imamfahrudin/discord-forexfactory-notifier&type=Date)](https://star-history.com/#imamfahrudin/discord-forexfactory-notifier&Date)
-
-## 📸 Screenshots
-
-### Discord Notification
-![Discord Notification](https://via.placeholder.com/800x600/36393F/FFFFFF?text=Discord+Notification+Example)
-
-### Docker Logs
-![Docker Logs](https://via.placeholder.com/800x600/1E1E1E/FFFFFF?text=Docker+Logs+Example)
 
 ---
 
