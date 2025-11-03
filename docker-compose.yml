@@ -1,0 +1,21 @@
+# Docker Compose version - defines the compose file format
+version: '3.8' 
+
+services:
+  # Discord Forex Factory Notifier Service
+  # Monitors Forex Factory calendar and sends notifications to Discord
+  discord-forexfactory-notifier:
+    # Build the Docker image from the Dockerfile in the current directory
+    build: .
+    
+    # Assign a friendly name to the container for easier management
+    container_name: discord-forexfactory-notifier
+    
+    # Load environment variables from .env file
+    # This should contain Discord webhook URL and other sensitive configuration
+    env_file:
+      - .env
+    
+    # Automatically restart the container unless explicitly stopped
+    # Ensures the notifier keeps running even after system reboots or crashes
+    restart: unless-stopped
