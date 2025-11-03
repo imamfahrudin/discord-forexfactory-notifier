@@ -615,7 +615,6 @@ Planned features:
 - [ ] Multiple webhook support
 - [ ] Historical event tracking
 - [ ] Custom event alerts
-- [ ] Telegram integration
 - [ ] REST API for manual triggers
 - [ ] Unit tests
 - [ ] CI/CD pipeline
