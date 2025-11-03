@@ -14,6 +14,10 @@ import traceback
 from apscheduler.schedulers.blocking import BlockingScheduler
 from apscheduler.triggers.cron import CronTrigger
 import pytz
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Configure logging with timestamp, level, and message formatting
 logging.basicConfig(
