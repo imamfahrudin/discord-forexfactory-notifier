@@ -604,21 +604,6 @@ Open an issue for:
 - [Forex Factory Calendar](https://www.forexfactory.com/calendar)
 - [Forex Factory Forum](https://www.forexfactory.com/forum)
 
-## 📊 Project Status
-
-This project is actively maintained. Check the [commit history](https://github.com/imamfahrudin/discord-forexfactory-notifier/commits/main) for recent updates.
-
-### Roadmap
-
-Planned features:
-- [ ] Web dashboard for configuration
-- [ ] Multiple webhook support
-- [ ] Historical event tracking
-- [ ] Custom event alerts
-- [ ] REST API for manual triggers
-- [ ] Unit tests
-- [ ] CI/CD pipeline
-
 ## ⭐ Star History
 
 If you find this project useful, please consider giving it a star! ⭐
@@ -629,7 +614,7 @@ If you find this project useful, please consider giving it a star! ⭐
 
 <div align="center">
 
-**Made with ❤️ by [Imam Fahrudin](https://github.com/imamfahrudin)**
+**Made with ❤️ by [Mukhammad Imam Fahrudin](https://github.com/imamfahrudin)**
 
 If this project helped you, please consider giving it a ⭐!
 
